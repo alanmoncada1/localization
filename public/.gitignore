@@ -17,4 +17,22 @@ pids/
 
 # Build directories (optional)
 dist/
-bu
+build/
+
+# Env config (seguridad)
+.env
+.env.local
+.env.*.local
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Deployment artifacts (opcional si usas render/vercel/etc.)
+*.tgz
