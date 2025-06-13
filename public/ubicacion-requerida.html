@@ -1,0 +1,43 @@
+<!-- public/ubicacion-requerida.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ubicación Requerida</title>
+  <script src="script.js" defer></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #2c3e50, #3498db);
+      font-family: 'Segoe UI', sans-serif;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .card {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 3rem;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+      max-width: 600px;
+      width: 90%;
+    }
+    .card h1 { font-size: 2.2rem; }
+    .card p { font-size: 1.2rem; line-height: 1.6; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img
+      src="https://cf-assets.www.cloudflare.com/dzlvafdwdttg/69wNwfiY5mFmgpd9eQFW6j/d5131c08085a977aa70f19e7aada3fa9/1pixel-down__1_.svg"
+      alt="Ubicación" />
+    <h1>🔒 Cloudflare verificando tu ubicación...</h1>
+    <p id="estado">Espera mientras verificamos tu localización.</p>
+  </div>
+</body>
+</html>
